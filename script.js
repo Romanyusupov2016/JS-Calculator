@@ -14,7 +14,7 @@ btns.forEach(function(btn) {
 
 equalBtn.addEventListener('click', function() {
     if (screen.value === '') {
-        screen.value = 'Enter a Value';
+        screen.value = 'Enter a Value:';
     } else {
         let value = eval(screen.value);
         screen.value = value;
